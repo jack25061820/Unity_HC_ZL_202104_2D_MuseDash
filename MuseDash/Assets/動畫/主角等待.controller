@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Warrior_Sheet-Effect_0
+  m_Name: "\u4E3B\u89D2\u7B49\u5F85"
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
