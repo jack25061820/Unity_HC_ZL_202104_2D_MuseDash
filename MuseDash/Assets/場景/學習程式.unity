@@ -230,6 +230,14 @@ MonoBehaviour:
   v2my1: {x: 3.5, y: 9}
   v3: {x: 0, y: 0, z: 0}
   v4: {x: 0, y: 0, z: 0, w: 0}
+  key: 0
+  a: 97
+  mouse: 323
+  joy: 385
+  obj: {fileID: 1430061626}
+  tra: {fileID: 1430061629}
+  cam: {fileID: 1430061628}
+  aud: {fileID: 1430061627}
 --- !u!1 &1430061626
 GameObject:
   m_ObjectHideFlags: 0

@@ -53,4 +53,17 @@ public class Car : MonoBehaviour
 
     public Vector3 v3;
     public Vector4 v4;
+
+    // 輸入按鍵 KeyCode
+    public KeyCode key;
+    public KeyCode a = KeyCode.A;
+    public KeyCode mouse = KeyCode.Mouse0;
+    public KeyCode joy = KeyCode.Joystick2Button15;
+
+    // 遊戲物件與元件
+    public GameObject obj;
+
+    public Transform tra;
+    public Camera cam;
+    public AudioListener aud;
 }
