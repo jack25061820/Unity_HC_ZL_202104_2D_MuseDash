@@ -220,6 +220,16 @@ MonoBehaviour:
   weight: 3.5
   brand: "\u8CD3\u58EB"
   openCold: 0
+  color: {r: 0, g: 0, b: 0, a: 0}
+  red: {r: 1, g: 0, b: 0, a: 1}
+  yellow: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  color1: {r: 0.5, g: 0.6, b: 0, a: 1}
+  color2: {r: 0, g: 0.5, b: 0.9, a: 0.5}
+  v2: {x: 0, y: 0}
+  v2One: {x: 1, y: 1}
+  v2my1: {x: 3.5, y: 9}
+  v3: {x: 0, y: 0, z: 0}
+  v4: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1430061626
 GameObject:
   m_ObjectHideFlags: 0
