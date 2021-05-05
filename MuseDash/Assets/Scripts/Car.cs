@@ -122,6 +122,30 @@ public class Car : MonoBehaviour
         print("音效：" + sound);
         print("特效：" + effect);
     }
+
+    // 有傳回方法必須有關鍵字 return 在大括號內
+    // return 後必須要放傳回類型的資料
+    /// <summary>
+    /// 平方
+    /// </summary>
+    /// <param name="number">要平方的數字</param>
+    /// <returns>輸入數字的平方結果</returns>
+    private int Square(int number)
+    {
+        return number * number;
+    }
+
+    // BMI：體重 / 身高 * 身高
+    /// <summary>
+    /// BMI 計算方法
+    /// </summary>
+    /// <param name="weight">體重 (公斤)</param>
+    /// <param name="height">身高 (公尺)</param>
+    /// <returns>BMI 結果</returns>
+    private float BMI(float weight, float height)
+    {
+        return weight / (height * height);
+    }
     #endregion
 
     #region 事件
@@ -137,9 +161,17 @@ public class Car : MonoBehaviour
         // 有幾個參數就要輸入幾個
         Drive(99, "咻咻咻", "灰塵");
         Drive(777, "轟轟轟", "爆炸");
-
+        // 有預設值的參數可以不用填
         Drive(10);
         Drive(20, "嘿嘿嘿");
+        // 有多個預設值參數時，指定方式 參數名稱:
+        Drive(30, effect:"爆炸特效");
+
+        int r = Square(9);
+        print("9 的平方：" + r);
+
+        float kid = BMI(61, 1.68f);
+        print("KID 的 BMI：" + kid);
     }
     #endregion
 }

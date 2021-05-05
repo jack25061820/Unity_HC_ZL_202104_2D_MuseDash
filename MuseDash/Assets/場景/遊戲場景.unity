@@ -9981,6 +9981,7 @@ GameObject:
   - component: {fileID: 1060378242}
   - component: {fileID: 1060378244}
   - component: {fileID: 1060378243}
+  - component: {fileID: 1060378245}
   m_Layer: 0
   m_Name: "\u4E3B\u89D2"
   m_TagString: Untagged
@@ -10109,6 +10110,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1060378245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060378239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc85f49b7a84b5945a030a645b8102b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: 100
+  hp: 500
+  isGround: 0
 --- !u!1 &1268814194
 GameObject:
   m_ObjectHideFlags: 0
