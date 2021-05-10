@@ -4,7 +4,7 @@ using UnityEngine;
 public class APIStatic : MonoBehaviour
 {
     private void Start()
-    {
+    {   //開始事件
         //使用靜態API
         //屬性
         //可以取得Get、可以設定Set
@@ -20,6 +20,20 @@ public class APIStatic : MonoBehaviour
         //語法:類別.靜態方法(對應的參數);
         int r = Random.Range(50, 150);
         print("隨機攻擊力:" + r);
+
+        print("所有攝影機數量" + Camera.allCamerasCount);
+        print("2D的重力大小" + Physics2D.gravity);
+
+        Physics2D.gravity = new Vector2(0, -20);
+        print("2D" + Physics2D.gravity);
+
+
+
+    }
+    private void Update()
+    {
+        print("是否輸入任意鍵" + Input.anyKeyDown);
+        //print("遊戲時間" + Time.timeSinceLevelLoad);
 
     }
 }
